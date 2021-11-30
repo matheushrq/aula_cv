@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-main => runApp(
+void main(){
   MaterialApp(
     home: Inicio(),
     debugShowCheckedModeBanner: false,
-  )
-);
+  );
+}
 
 class Inicio extends StatefulWidget {
 
